@@ -1,0 +1,514 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 106151041,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Browser is lanuched",
+            "match": {
+              "location": "Login.browser_is_lanuched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 60144,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "gmail url is entered",
+            "match": {
+              "location": "Login.gmail_url_is_entered()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56546,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be on the gmail login page",
+            "match": {
+              "location": "Login.i_should_be_on_the_gmail_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Gmail Login Test With Valid Credentials",
+        "description": "",
+        "id": "login-test;gmail-login-test-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2857124,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter the valid username \"loing@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "loing@gmail.com",
+                  "offset": 28
+                }
+              ],
+              "location": "Login.i_enter_the_valid_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter the valid password \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 28
+                }
+              ],
+              "location": "Login.i_enter_the_valid_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59117,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on signing button",
+            "match": {
+              "location": "Login.i_click_on_signing_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68883,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should be seeing the inbox page",
+            "match": {
+              "location": "Login.i_should_be_seeing_the_inbox_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 66313,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Browser is lanuched",
+            "match": {
+              "location": "Login.browser_is_lanuched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 49349,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "gmail url is entered",
+            "match": {
+              "location": "Login.gmail_url_is_entered()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66827,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be on the gmail login page",
+            "match": {
+              "location": "Login.i_should_be_on_the_gmail_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Gmail login test with invalid credentials",
+        "description": "",
+        "id": "login-test;gmail-login-test-with-invalid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 115148,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter the valid username \"viajahsree\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "viajahsree",
+                  "offset": 28
+                }
+              ],
+              "location": "Login.i_enter_the_valid_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110522,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter the valid password \"sonu123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sonu123",
+                  "offset": 28
+                }
+              ],
+              "location": "Login.i_enter_the_valid_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169638,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on signing button",
+            "match": {
+              "location": "Login.i_click_on_signing_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78137,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should be seeing the inbox page",
+            "match": {
+              "location": "Login.i_should_be_seeing_the_inbox_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@GmailLogin_Feature"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 75052,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Browser is lanuched",
+            "match": {
+              "location": "Login.browser_is_lanuched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 49863,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "gmail url is entered",
+            "match": {
+              "location": "Login.gmail_url_is_entered()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 798844,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be on the gmail login page",
+            "match": {
+              "location": "Login.i_should_be_on_the_gmail_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Gmail login test with invalid credentials",
+        "description": "",
+        "id": "login-test;gmail-login-test-with-invalid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 94072,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter the valid username \"archana\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "archana",
+                  "offset": 28
+                }
+              ],
+              "location": "Login.i_enter_the_valid_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119775,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter the valid password \"archana234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "archana234",
+                  "offset": 28
+                }
+              ],
+              "location": "Login.i_enter_the_valid_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60659,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on signing button",
+            "match": {
+              "location": "Login.i_click_on_signing_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63229,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should be seeing the inbox page",
+            "match": {
+              "location": "Login.i_should_be_seeing_the_inbox_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@GmailLogin_Feature"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 104353,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Browser is lanuched",
+            "match": {
+              "location": "Login.browser_is_lanuched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 58088,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "gmail url is entered",
+            "match": {
+              "location": "Login.gmail_url_is_entered()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60659,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be on the gmail login page",
+            "match": {
+              "location": "Login.i_should_be_on_the_gmail_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Gmail login test with invalid credentials",
+        "description": "",
+        "id": "login-test;gmail-login-test-with-invalid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 318201,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter the valid username \"soumya\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "soumya",
+                  "offset": 28
+                }
+              ],
+              "location": "Login.i_enter_the_valid_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1020915,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter the valid password \"sian\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sian",
+                  "offset": 28
+                }
+              ],
+              "location": "Login.i_enter_the_valid_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 401478,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on signing button",
+            "match": {
+              "location": "Login.i_click_on_signing_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1087743,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should be seeing the inbox page",
+            "match": {
+              "location": "Login.i_should_be_seeing_the_inbox_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@GmailLogin_Feature"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "Description:  Here Im testing the login feature of gmail application\r\nwith valid and invalid credentials",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "GmailLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@GmailLogin_Feature"
+      }
+    ]
+  }
+]

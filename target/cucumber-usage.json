@@ -1,0 +1,266 @@
+[
+  {
+    "source": "^gmail url is entered$",
+    "steps": [
+      {
+        "name": "gmail url is entered",
+        "aggregatedDurations": {
+          "average": 0.000054361,
+          "median": 0.000053975
+        },
+        "durations": [
+          {
+            "duration": 0.000060144,
+            "location": "GmailLogin.feature:8"
+          },
+          {
+            "duration": 0.000049349,
+            "location": "GmailLogin.feature:8"
+          },
+          {
+            "duration": 0.000049863,
+            "location": "GmailLogin.feature:8"
+          },
+          {
+            "duration": 0.000058088,
+            "location": "GmailLogin.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Browser is lanuched$",
+    "steps": [
+      {
+        "name": "Browser is lanuched",
+        "aggregatedDurations": {
+          "average": 0.026599189,
+          "median": 0.000089702
+        },
+        "durations": [
+          {
+            "duration": 0.106151041,
+            "location": "GmailLogin.feature:7"
+          },
+          {
+            "duration": 0.000066313,
+            "location": "GmailLogin.feature:7"
+          },
+          {
+            "duration": 0.000075052,
+            "location": "GmailLogin.feature:7"
+          },
+          {
+            "duration": 0.000104353,
+            "location": "GmailLogin.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should be seeing the inbox page$",
+    "steps": [
+      {
+        "name": "I should be seeing the inbox page",
+        "aggregatedDurations": {
+          "average": 0.000324498,
+          "median": 0.00007351
+        },
+        "durations": [
+          {
+            "duration": 0.000068883,
+            "location": "GmailLogin.feature:15"
+          },
+          {
+            "duration": 0.000078137,
+            "location": "GmailLogin.feature:21"
+          },
+          {
+            "duration": 0.000063229,
+            "location": "GmailLogin.feature:21"
+          },
+          {
+            "duration": 0.001087743,
+            "location": "GmailLogin.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter the valid password \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter the valid password \"123\"",
+        "aggregatedDurations": {
+          "average": 0.000128,
+          "median": 0.000128
+        },
+        "durations": [
+          {
+            "duration": 0.000128,
+            "location": "GmailLogin.feature:13"
+          }
+        ]
+      },
+      {
+        "name": "I enter the valid password \"sonu123\"",
+        "aggregatedDurations": {
+          "average": 0.000110522,
+          "median": 0.000110522
+        },
+        "durations": [
+          {
+            "duration": 0.000110522,
+            "location": "GmailLogin.feature:19"
+          }
+        ]
+      },
+      {
+        "name": "I enter the valid password \"archana234\"",
+        "aggregatedDurations": {
+          "average": 0.000119775,
+          "median": 0.000119775
+        },
+        "durations": [
+          {
+            "duration": 0.000119775,
+            "location": "GmailLogin.feature:19"
+          }
+        ]
+      },
+      {
+        "name": "I enter the valid password \"sian\"",
+        "aggregatedDurations": {
+          "average": 0.001020915,
+          "median": 0.001020915
+        },
+        "durations": [
+          {
+            "duration": 0.001020915,
+            "location": "GmailLogin.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on signing button$",
+    "steps": [
+      {
+        "name": "I click on signing button",
+        "aggregatedDurations": {
+          "average": 0.000172723,
+          "median": 0.000115148
+        },
+        "durations": [
+          {
+            "duration": 0.000059117,
+            "location": "GmailLogin.feature:14"
+          },
+          {
+            "duration": 0.000169638,
+            "location": "GmailLogin.feature:20"
+          },
+          {
+            "duration": 0.000060659,
+            "location": "GmailLogin.feature:20"
+          },
+          {
+            "duration": 0.000401478,
+            "location": "GmailLogin.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should be on the gmail login page$",
+    "steps": [
+      {
+        "name": "I should be on the gmail login page",
+        "aggregatedDurations": {
+          "average": 0.000245719,
+          "median": 0.000063743
+        },
+        "durations": [
+          {
+            "duration": 0.000056546,
+            "location": "GmailLogin.feature:9"
+          },
+          {
+            "duration": 0.000066827,
+            "location": "GmailLogin.feature:9"
+          },
+          {
+            "duration": 0.000798844,
+            "location": "GmailLogin.feature:9"
+          },
+          {
+            "duration": 0.000060659,
+            "location": "GmailLogin.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter the valid username \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter the valid username \"loing@gmail.com\"",
+        "aggregatedDurations": {
+          "average": 0.002857124,
+          "median": 0.002857124
+        },
+        "durations": [
+          {
+            "duration": 0.002857124,
+            "location": "GmailLogin.feature:12"
+          }
+        ]
+      },
+      {
+        "name": "I enter the valid username \"viajahsree\"",
+        "aggregatedDurations": {
+          "average": 0.000115148,
+          "median": 0.000115148
+        },
+        "durations": [
+          {
+            "duration": 0.000115148,
+            "location": "GmailLogin.feature:18"
+          }
+        ]
+      },
+      {
+        "name": "I enter the valid username \"archana\"",
+        "aggregatedDurations": {
+          "average": 0.000094072,
+          "median": 0.000094072
+        },
+        "durations": [
+          {
+            "duration": 0.000094072,
+            "location": "GmailLogin.feature:18"
+          }
+        ]
+      },
+      {
+        "name": "I enter the valid username \"soumya\"",
+        "aggregatedDurations": {
+          "average": 0.000318201,
+          "median": 0.000318201
+        },
+        "durations": [
+          {
+            "duration": 0.000318201,
+            "location": "GmailLogin.feature:18"
+          }
+        ]
+      }
+    ]
+  }
+]

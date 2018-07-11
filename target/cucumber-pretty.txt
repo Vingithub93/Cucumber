@@ -1,0 +1,59 @@
+@GmailLogin_Feature
+Feature: Login Test
+  Description:  Here Im testing the login feature of gmail application
+  with valid and invalid credentials
+
+  Background:                                # GmailLogin.feature:6
+    Given Browser is lanuched                # Login.browser_is_lanuched()
+    And gmail url is entered                 # Login.gmail_url_is_entered()
+    Then I should be on the gmail login page # Login.i_should_be_on_the_gmail_login_page()
+
+  Scenario: Gmail Login Test With Valid Credentials   # GmailLogin.feature:11
+    When I enter the valid username "loing@gmail.com" # Login.i_enter_the_valid_username(String)
+    And I enter the valid password "123"              # Login.i_enter_the_valid_password(String)
+    And I click on signing button                     # Login.i_click_on_signing_button()
+    Then I should be seeing the inbox page            # Login.i_should_be_seeing_the_inbox_page()
+
+  Scenario Outline: Gmail login test with invalid credentials # GmailLogin.feature:17
+    When I enter the valid username "<username>"
+    And I enter the valid password "<pwd>"
+    And I click on signing button
+    Then I should be seeing the inbox page
+
+    Examples: 
+
+  Background:                                # GmailLogin.feature:6
+    Given Browser is lanuched                # Login.browser_is_lanuched()
+    And gmail url is entered                 # Login.gmail_url_is_entered()
+    Then I should be on the gmail login page # Login.i_should_be_on_the_gmail_login_page()
+
+  @GmailLogin_Feature
+  Scenario Outline: Gmail login test with invalid credentials # GmailLogin.feature:25
+    When I enter the valid username "viajahsree"              # Login.i_enter_the_valid_username(String)
+    And I enter the valid password "sonu123"                  # Login.i_enter_the_valid_password(String)
+    And I click on signing button                             # Login.i_click_on_signing_button()
+    Then I should be seeing the inbox page                    # Login.i_should_be_seeing_the_inbox_page()
+
+  Background:                                # GmailLogin.feature:6
+    Given Browser is lanuched                # Login.browser_is_lanuched()
+    And gmail url is entered                 # Login.gmail_url_is_entered()
+    Then I should be on the gmail login page # Login.i_should_be_on_the_gmail_login_page()
+
+  @GmailLogin_Feature
+  Scenario Outline: Gmail login test with invalid credentials # GmailLogin.feature:26
+    When I enter the valid username "archana"                 # Login.i_enter_the_valid_username(String)
+    And I enter the valid password "archana234"               # Login.i_enter_the_valid_password(String)
+    And I click on signing button                             # Login.i_click_on_signing_button()
+    Then I should be seeing the inbox page                    # Login.i_should_be_seeing_the_inbox_page()
+
+  Background:                                # GmailLogin.feature:6
+    Given Browser is lanuched                # Login.browser_is_lanuched()
+    And gmail url is entered                 # Login.gmail_url_is_entered()
+    Then I should be on the gmail login page # Login.i_should_be_on_the_gmail_login_page()
+
+  @GmailLogin_Feature
+  Scenario Outline: Gmail login test with invalid credentials # GmailLogin.feature:27
+    When I enter the valid username "soumya"                  # Login.i_enter_the_valid_username(String)
+    And I enter the valid password "sian"                     # Login.i_enter_the_valid_password(String)
+    And I click on signing button                             # Login.i_click_on_signing_button()
+    Then I should be seeing the inbox page                    # Login.i_should_be_seeing_the_inbox_page()

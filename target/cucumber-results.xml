@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.114349">
+<testcase classname="Login Test" name="Gmail Login Test With Valid Credentials" time="0.109381">
+<system-out><![CDATA[Given Browser is lanuched...................................................passed
+And gmail url is entered....................................................passed
+Then I should be on the gmail login page....................................passed
+When I enter the valid username "loing@gmail.com"...........................passed
+And I enter the valid password "123"........................................passed
+And I click on signing button...............................................passed
+Then I should be seeing the inbox page......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Test" name="Gmail login test with invalid credentials" time="0.000656">
+<system-out><![CDATA[Given Browser is lanuched...................................................passed
+And gmail url is entered....................................................passed
+Then I should be on the gmail login page....................................passed
+When I enter the valid username "viajahsree"................................passed
+And I enter the valid password "sonu123"....................................passed
+And I click on signing button...............................................passed
+Then I should be seeing the inbox page......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Test" name="Gmail login test with invalid credentials 2" time="0.001261">
+<system-out><![CDATA[Given Browser is lanuched...................................................passed
+And gmail url is entered....................................................passed
+Then I should be on the gmail login page....................................passed
+When I enter the valid username "archana"...................................passed
+And I enter the valid password "archana234".................................passed
+And I click on signing button...............................................passed
+Then I should be seeing the inbox page......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Test" name="Gmail login test with invalid credentials 3" time="0.003051">
+<system-out><![CDATA[Given Browser is lanuched...................................................passed
+And gmail url is entered....................................................passed
+Then I should be on the gmail login page....................................passed
+When I enter the valid username "soumya"....................................passed
+And I enter the valid password "sian".......................................passed
+And I click on signing button...............................................passed
+Then I should be seeing the inbox page......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
